@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI, Helvetica Neue, Arial ;
+}
+header {
+    background-color: white;
+    box-sizing: content-box;
+    overflow: hidden;
+    box-shadow: 5px 2px 18px #777;
+}
+
+a {
+    text-decoration: none;
+    color: #011936;
+}
+
+.login{
+    background-color: #f1f1f1;
+}
+
+.btnnav{
+    color: #011936;
+}
+
+h1 {
+    text-align: center;
+    color: #011936;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: #011936;
+    font-size: 24px;
+}
+
+
+header .logo a {
+    font-weight: bold;
+    width: 17.2%;
+    color: #011936;
+    text-align: center;
+    border-radius: 0 10px 0 10px;
+}
+
+header a {
+    padding: 20px 20px 20px 20px;
+    float: left;
+    box-sizing: content-box;
+    font-size: 24px;
+}
+
+header .navbar a:hover {
+    background-color: #011936;
+    color: white;
+}
+
+body {
+    margin: 0%;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*.kolom {
+    float: left;
+}
+
+.w-70 {
+    align-self: center;
+    width: 70%;
+}*/
+
+/*.w-30 {
+    width: 30%;
+}*/
+
+.MenuLeft1{
+    list-style: none;
+    width: 20%;
+    height: 150%;
+    position: absolute;
+    overflow: auto;
+    background-color: #011936;
+    margin: 0px;
+    padding: 0px;
+}
+.FiturP{
+    color: white;
+}
+
+.MenuLeft{
+    display: block;
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.MenuLeft:hover{
+    color: black;
+}
+
+.full {
+    width: 100%;
+    margin: auto;
+}
+
+.menu-login {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 360px;
+    padding: 20px 30px 30px 30px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+}
+
+.menu-login input {
+    margin: 2px;
+    border: #011936 solid 1px;
+    background-color: #E9EAEC;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.menu-login button {
+    width: 100%;
+    border: none;
+    background-color: #011936;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.menu-login input:hover,
+input:focus {
+    background-color: white;
+    border: #011936 solid 1px;
+}
+
+.menu-login button:hover {
+    background-color: #011936;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.leb70{
+    margin-left: 20%;
+/*    background: linear-gradient(to right, #ECE9E6, #FFFFFF);*/
+}
+
+.kotak {
+    background-color: #011936;
+    color: white;
+    float: left;
+    width: 150px;
+    border-radius: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.kotak:hover {
+    background-color: whitesmoke;
+    color: teal;
+    border: teal solid 1px;
+}
+
+
+.container-home {
+    width: fit-content;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.container-home a {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    background-color: #011936;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.container a:hover{
+    color: red;
+}
+.container-home a:hover {
+    font-weight: bold;
+    background-color: #011936;
+    color: #FAD02C;
+    text-decoration: none;
+}
+
+.container table {
+    border-collapse: collapse;
+/*box-shadow: 5px 2px 18px #777;*/
+}
+
+.container table th {
+    padding: 10px;
+    text-align: center;
+    background-color: #011936;
+    color: white;
+}
+.container table td{
+    background-color: white;
+}
+
+.container table td,
+th {
+    border-radius: 8px;
+    border: 2px gainsboro solid;
+    padding: 10px;
+}
+
+.container table tr:hover {
+    background-color: blue;
+}
+
+.menu-action {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333652;
+    border-radius: 5px;
+
+}
+
+.Fpinjam{
+    color: white;
+}
+
+.labelF{
+    color: white;
+}
+
+.menu-action form {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.menu-action form input,
+select {
+    margin-top: 5px;
+    padding: 10px;
+    border: solid 1px;
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.menu-action form button {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333652;
+}
+
+.notice{
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.notice:hover{
+    color: red;
+}
+
+.menu-action form input:hover {
+    background-color: whitesmoke;
+}
+
+
+ul {
+    list-style: square;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+ul li {
+    padding-top: 5px;
+}
+
+ul li:hover {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
